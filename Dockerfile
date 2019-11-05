@@ -1,4 +1,4 @@
-FROM php:7.3.9-cli-alpine3.10
+FROM php:7.3.11-cli-alpine3.10
 
 RUN apk update && apk add --no-cache rabbitmq-c-dev libpng-dev
 
